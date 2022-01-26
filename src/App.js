@@ -1,9 +1,15 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import TopBar from './components/TopBar';
+import Mid from './components/Mid';
+import Stores from './components/Stores';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <Mid />
+      <Stores />
     </div>
   );
 }
